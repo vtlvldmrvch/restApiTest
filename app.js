@@ -7,6 +7,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+var db = require("./database");
 
 app.use(logger('dev'));
 app.use(express.json());
